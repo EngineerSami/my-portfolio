@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sami Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#languages">Languages</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    
+    
+
+    <section class="hero">
+        <h1>Sami Daraghmeh</h1>
+        <h2>Full-Stack Developer | Computer Enginner</h2>
+    </section>
+
+    <section id="about" class="about fade-in">
+        <div class="text">
+            <h3>About Me</h3>
+            <p>
+                <h1>Sami Daraghmeh </h1> <br>Computer engineer | Full Stack Developer | Graphic designer<br>I studying in Abant Izzet Baysal üniversitesi<br>My Languges : Arabic | English | Turkish | Spanish
+            </p>
+            <div class="social-icons">
+                <a href="https://github.com/EngineerSami" title="GitHub" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/fsdsami/" title="LinkedIn" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/sami13.6/" title="Twitter" target="_blank"><i class="fab fa-instagram" ></i></a>
+            </div>
+        </div>
+        <div class="image">
+            <img 
+                src="https://i.ibb.co/Q9YWvsp/image.jpg" 
+                alt="Sami Daraghmeh working on a laptop" 
+            />
+        </div>
+    </section>
+    
+
+    <section id="skills" class="skills fade-in">
+        <h3>Skills</h3>
+        <div class="skill-list">
+            <div class="skill">
+                <i class="fab fa-html5"></i>
+                <p>HTML</p>
+            </div>
+            <div class="skill">
+                <i class="fab fa-css3-alt"></i>
+                <p>CSS</p>
+            </div>
+            <div class="skill">
+                <i class="fab fa-js-square"></i>
+                <p>JavaScript</p>
+            </div>
+            <div class="skill">
+                <i class="fab fa-python"></i>
+                <p>Python</p>
+            </div>
+            <div class="skill">
+                <i class="fab fa-java"></i>
+                <p>Java</p>
+            </div>
+            <div class="skill">
+                <i class="fas fa-database"></i>
+                <p>MySQL</p>
+            </div>
+            <div class="skill">
+                <i class="fas fa-laptop-code"></i>
+                <p>Computer Engineering</p>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="projects" class="projects fade-in">
+        <h3>Projects</h3>
+        <!-- Slider container -->
+        <div class="slider-container">
+            <div class="slider">
+                <!-- Individual project slides -->
+                <div class="project">
+                    <img 
+                        src="https://i.ibb.co/XyF5MT3/Whats-App-Image-2024-11-23-at-18-15-38-063d7c5b.jpg" 
+                        alt="AI Chat Application project screenshot" 
+                    />
+                    <h4>Muhtarif</h4>
+                    <p>community marketplace where people and businesses connect to get tasks done effortlessly. <br> Whether you need to outsource a job, find a trusted local service, <br> or hire flexible staff in minutes, Muhtarif is here to bridge the gap and make life easier for everyone.</p>
+                    <p>
+                        <span class="badge">Python</span>
+                        <span class="badge">HTML</span>
+                        <span class="badge">CSS</span>
+                    </p>
+                </div>
+                <div class="project">
+                    <img 
+                        src="https://i.ibb.co/gWBygvY/image-2024-12-28-140728754.png" 
+                        alt="Task Management System project screenshot" 
+                    />
+                    <h4>Films desc</h4>
+                    <p>Project film description and ratings.</p>
+                    <p>
+                        <span class="badge">HTML</span>
+                        <span class="badge">CSS</span>
+                        <span class="badge">JS</span>
+                    </p>
+                </div>
+                
+            </div>
+            <!-- Slider controls (Next and Previous buttons) -->
+            <button class="prev" onclick="moveSlide(-1)">❮</button>
+            <button class="next" onclick="moveSlide(1)">❯</button>
+        </div>
+    </section>
+    
+
+    <section id="languages" class="languages fade-in">
+        <h3>Most Used Languages</h3>
+        <div class="skills-container">
+            <div class="skill-box">
+                <span>CSS</span>
+                <div class="bar">
+                    <span class="CSS"></span>
+                </div>
+                <span class="percentage">30%</span>
+            </div>
+            <div class="skill-box">
+                <span>HTML</span>
+                <div class="bar">
+                    <span class="HTML"></span>
+                </div>
+                <span class="percentage">25%</span>
+            </div>
+            <div class="skill-box">
+                <span>Java</span>
+                <div class="bar">
+                    <span class="Java"></span>
+                </div>
+                <span class="percentage">20%</span>
+            </div>
+            <div class="skill-box">
+                <span>Python</span>
+                <div class="bar">
+                    <span class="Python"></span>
+                </div>
+                <span class="percentage">15%</span>
+            </div>
+            <div class="skill-box">
+                <span>JavaScript</span>
+                <div class="bar">
+                    <span class="JavaScript"></span>
+                </div>
+                <span class="percentage">10%</span>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
