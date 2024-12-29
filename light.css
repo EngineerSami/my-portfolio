@@ -1,4 +1,3 @@
-/* General Styles */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -28,7 +27,6 @@ img {
     border-radius: 8px;
 }
 
-/* Header Styling */
 header {
     background-color: rgba(0, 0, 0, 0.055);
     color: rgb(0, 0, 0);
@@ -91,7 +89,6 @@ nav {
     font-weight: bold;
 }
 
-/* About Section Styling */
 .about {
     display: flex;
     justify-content: center;
@@ -174,7 +171,6 @@ nav {
     }
 }
 
-/* Hero Section */
 .hero {
     background: linear-gradient(135deg, #0066cc, #0099ff, #00ccff, #00ffff);
     color: #fff;
@@ -206,11 +202,10 @@ nav {
     font-weight: 400;
 }
 
-/* Skills Section */
 .skills {
     padding: 50px 0;
     text-align: center;
-    border: solid 2px rgb(124, 121, 121);
+    border-top: solid 2px rgb(124, 121, 121);
 }
 
 .skills h3 {
@@ -276,12 +271,12 @@ nav {
     }
 }
 
-/* Projects Section */
 .projects {
     background-color: #fff;
     padding: 60px 20px;
     text-align: center;
-    border: solid 2px rgb(124, 121, 121);
+    border-bottom: solid 2px rgb(124, 121, 121);
+    border-top: solid 2px rgb(124, 121, 121);
 }
 
 .projects h3 {
@@ -366,7 +361,6 @@ button:hover {
     right: 200px;
 }
 
-/* Languages Section */
 .languages {
     background-color: #f9f9f9;
     padding: 60px 20px;
