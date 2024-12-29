@@ -80,7 +80,7 @@ nav {
 }
 
 .nav-links a:hover {
-    color: #adabab;
+    color: #62d4f7;
     transform: scale(1.1);
 }
 
@@ -465,4 +465,10 @@ button:hover {
 .fade-in.visible {
     opacity: 1;
     transform: translateY(0);
+}
+
+.Switch{
+    border: solid 2px rgba(226, 226, 226, 0.11);
+    border-radius: 45%;
+    background-color: #74747428;
 }
