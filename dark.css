@@ -336,7 +336,7 @@ nav {
 
 button {
     background-color: rgba(255, 255, 255, 0.1); 
-    color: white;
+    color: rgb(8, 8, 8);
     font-size: 30px;
     padding: 10px;
     position: absolute;
@@ -355,11 +355,11 @@ button:hover {
 }
 
 .prev {
-    left: 200px;
+    left: 50px;
 }
 
 .next {
-    right: 200px;
+    right: 50px;
 }
 
 .languages {
@@ -471,3 +471,102 @@ button:hover {
     border-radius: 45%;
     background-color: #33333328;
 }
+
+.contact {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #1e1e1e; /* Dark background to match theme */
+    color: #e0e0e0; /* Light text color for contrast */
+}
+
+.contact-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact h3 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #e0e0e0;
+    font-weight: 600;
+}
+
+.contact form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-group {
+    text-align: left;
+}
+
+.form-group label {
+    font-weight: bold;
+    color: #e0e0e0; /* Ensure label text is visible */
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #444; /* Darker border */
+    border-radius: 5px;
+    background-color: #2a2a2a; /* Dark input background */
+    color: #e0e0e0; /* Input text color */
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+    color: #b0b0b0; /* Placeholder text color */
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #505cff; /* Highlighted border color */
+    box-shadow: 0 0 5px rgba(80, 92, 255, 0.5); /* Subtle glow */
+}
+
+.contact .social-iconss {
+    margin-top: 20px;
+}
+
+.contact .social-iconss a {
+    margin: 10px;
+    font-size:34px;
+    color: #e0e0e0; /* Light icon color */
+    transition: color 0.3s;
+}
+
+.contact .social-iconss a:hover {
+    color: #505cff; /* Hover effect */
+}
+h6[type="submit"] {
+    display: inline-block; /* Behaves like a button */
+    background-color: #505cff; /* Button background color */
+    color: #ffffff; /* Text color */
+    font-size: 16px; /* Font size */
+    font-weight: bold; /* Bold text */
+    padding: 10px 20px; /* Padding for the button */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    text-align: center; /* Center the text */
+    cursor: pointer; /* Change cursor to pointer */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+}
+
+h6[type="submit"]:hover {
+    background-color: #3f4dcc; /* Darker shade on hover */
+    transform: translateY(-2px); /* Slight lift effect */
+}
+
+h6[type="submit"]:active {
+    background-color: #2d3ca6; /* Even darker shade when pressed */
+    transform: translateY(0); /* Reset lift effect */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Adjust shadow for pressed state */
+}
+

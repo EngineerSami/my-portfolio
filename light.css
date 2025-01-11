@@ -354,11 +354,11 @@ button:hover {
 }
 
 .prev {
-    left: 200px;
+    left: 50px;
 }
 
 .next {
-    right: 200px;
+    right: 50px;
 }
 
 .languages {
@@ -471,4 +471,85 @@ button:hover {
     border: solid 2px rgba(226, 226, 226, 0.11);
     border-radius: 45%;
     background-color: #74747428;
+}
+
+.contact {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+}
+
+.contact-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-group label {
+    text-align: left;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.contact .social-iconss a {
+    margin: 10px;
+    font-size: 34px;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.contact .social-iconss a:hover {
+    color: #007bff;
+}
+h6[type="submit"] {
+    display: inline-block; /* Behaves like a button */
+    background-color: #505cff; /* Button background color */
+    color: #ffffff; /* Text color */
+    font-size: 16px; /* Font size */
+    font-weight: bold; /* Bold text */
+    padding: 10px 20px; /* Padding for the button */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    text-align: center; /* Center the text */
+    cursor: pointer; /* Change cursor to pointer */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+}
+
+h6[type="submit"]:hover {
+    background-color: #3f4dcc; /* Darker shade on hover */
+    transform: translateY(-2px); /* Slight lift effect */
+}
+
+h6[type="submit"]:active {
+    background-color: #2d3ca6; /* Even darker shade when pressed */
+    transform: translateY(0); /* Reset lift effect */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Adjust shadow for pressed state */
 }
